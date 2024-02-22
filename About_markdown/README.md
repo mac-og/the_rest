@@ -99,6 +99,7 @@ this is the second paragraph.
 
 Text formatting includes bold, italics, strikethrough. Underline is not mostly used because links are often identified by an underline although underline can be created using the `<u>` HTML tag.
 <br />
+
 Italics are created by enclosing the word or sentence by an asterisk `*` or underscore `_`. As in when you *want to create a word in italics* as in this.
 
 ```markdown
@@ -106,6 +107,7 @@ Making a word or a sentence italics you *make use* of an asterisk. An _underscor
 ```
 
 <br />
+
 Bold are made by unclosing a word or sentence in double asterisk `*` or underscore `_`. As in when you want to make a **word bold you enclose** it in double asterisk or underscore.
 
 ```markdown
@@ -162,6 +164,7 @@ Both links and images make use of a combination of brackets **[]** and paranthes
 For links: `It is made by enclosing a represented word for the [link](https://url.com "site title")`.
 Just like this [link](https://url.com "site title") that leads nowhere.
 <br />
+
 Reference linkng can also be used:
 
 ```markdown
@@ -204,5 +207,7 @@ The aligninment does not necessary matters.
 
 <hr /> <br />
 
-**This is just a summary and compilation about everything you need to get started in markdown** <br />
+**This is just a summary and compilation about everything you need to get started in markdown**
+<br />
+
 **Remember**: This is just the basics to get you started in markdown
