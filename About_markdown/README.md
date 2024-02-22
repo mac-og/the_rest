@@ -22,7 +22,7 @@ Just like in HTML, we make use of the `<h1>` tag to make heading 1, the `#` symb
 
 ### Horizontal rules
 
-You can separate sections of a document using the `<hr /` tags. In markdown, these are created using three or more hyphens `---`, underscore `___`, asterisk `***` or equal sign `===`, place them alone on a blank line.
+You can separate sections of a document using the `<hr /` tags. In markdown, these are created using three or more hyphens `---`, underscore `___`, asterisk `***`, place them alone on a blank line.
 
 ```markdown
 This is an example of the usage of an horizontal rule in markdown
@@ -32,8 +32,6 @@ ___
 You can make use of an underscore
 ***
 You can make use of an asterisk
-===
-and you can also make use of an equal sign
 ```
 
 This is the representation of the above for the usage of an horizontal rule in markdown
@@ -47,9 +45,6 @@ You can make use of an underscore
 ***
 You can make use of an asterisk
 
-===
-and you can also make use of an equal sign
-
 ### Lists
 
 Creating unordered lists `<ul>` in markdown, you make use of the asterisk `*`, plus `+` or hyphen `-` at the beginning of each new line
@@ -58,12 +53,12 @@ Creating unordered lists `<ul>` in markdown, you make use of the asterisk `*`, p
 *   this is
 *   an unordered
 *   list
-<br />
+
 -   this is
 -   also an unordered
 -   list
 -   but makes use
--   of an hyphen `-`
+-   of an hyphen
 ```
 
 - this is
@@ -93,7 +88,7 @@ Paragraphs of normal text are seperated by one or more blank lines.
 ```markdown
 This is the first paragraph and it will be indented or separated from the second paragraph because it makes use of one or more blank spaces.
 
-this is the second paragraph.
+This is the second paragraph.
 ```
 
 This is the first paragraph and it will be indented or separated from the second paragraph because it makes use of one or more blank spaces.
@@ -111,11 +106,14 @@ Making a word or a sentence italics you *make use* of an asterisk. An _underscor
 ```
 
 <br />
-Bold are made by unclosing a word or sentence in double asterisk `**` or underscore `__`. As in when you want to make a **word bold you enclose** it in double asterisk or underscore.
+Bold are made by unclosing a word or sentence in double asterisk `*` or underscore `_`. As in when you want to make a **word bold you enclose** it in double asterisk or underscore.
+
 ```markdown
 Making a word or a sentence bold you **make use* of double asterisk. Double __underscore can also be_ used for the same function.
 ```
+
 And they can  also be combined together. All *italics and some **bold like this** and*, the other All **bold and some *itaics like this* and it works**.
+
 ```markdown
 They can  also be combined together. All *italics and some **bold like this** and*, the other All **bold and some *itaics like this* and it works**.
 ```
@@ -123,7 +121,8 @@ They can  also be combined together. All *italics and some **bold like this** an
 Strikethrough are also created using double tilde `~` symbol as in this ~~word is strikethrough~~ and it works.
 
 ```markdown
-Strikethrough are created using double tilde `~~` symbol as in this ~~word is strikethrough~~ and it works.```
+Strikethrough are created using double tilde `~~` symbol as in this ~~word is strikethrough~~ and it works.
+```
 
 ## Blockquotes and Code blocks
 
@@ -174,9 +173,10 @@ Then at the end of the document ...
 ```
 
 Images makes use of a similar syntax but the exclamation mark `!` is used at the start.
-`![Alt text](https://imageURL.com "this is the title")`. It also makes use of the reference linking.
+`![Alt text](https://imageurl.com "this is the title")`. It also makes use of the reference linking.
 
-##  Task lists
+## Task lists
+
 Task lists are created using `- [ ]` for unchecked items and `- [x]` for checked item.
 
 ```markdown
@@ -204,5 +204,5 @@ The aligninment does not necessary matters.
 
 <hr /> <br />
 
-**Thank you for coming this far** <br />
+**This is just a summary and compilation about everything you need to get started in markdown** <br />
 **Remember**: This is just the basics to get you started in markdown
